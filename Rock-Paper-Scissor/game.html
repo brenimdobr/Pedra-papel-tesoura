@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock, Paper, Scissor</title>
+</head>
+<body>
+    <div class="caixa-principal">
+
+        <!--Main_menu-->
+
+        <div class="menu display">
+            <H1>Pedra, Papel e Tesoura</H1>
+        <div class="menu-btn">
+            <button class="btn start-btn" >Jogar</button>
+            <button class="btn config-btn" >Configurações</button>
+        </div>
+        </div>
+
+        <!--Main_game-->
+
+        <div class="game display">
+            <div class="titulo"></div>
+        <div class="caixa-choice"></div>
+        <div class="caixa-resultado">
+            <p class="texto-resultado"></p>
+        </div>
+        <div class="caixa-alternativas"></div>
+        <button class="display Restart"> Restart </button>
+        <button class="display back_menu"> Menu </button>
+        </div>
+
+        <!---Configuraçoes-->
+
+        <div class="config display">
+            <h1>Background</h1>
+        <div class="caixa-choice">
+            <div class="conf-btn">
+                <button class="btn bg-azul">Azul</button>
+                <button class="btn bg-amarelo">Amarelo</button>
+                <button class="btn bg-laranja">Laranja</button>
+                <button class="btn bg-branco">Branco</button>
+                <button class="btn bg-preto">Preto</button>
+            </div>
+            </div>
+            <div class="menu-btn">
+                <button class="btn btn-voltar">Voltar</button>
+        </div>
+        </div>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/config.js"></script>
+    <script type="module" src="js/state.js"></script>
+</body>
+</html>
